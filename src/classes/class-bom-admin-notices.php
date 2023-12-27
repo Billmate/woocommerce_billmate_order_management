@@ -21,7 +21,13 @@ class BOM_Admin_Notices {
 	 */
 	protected static $instance;
 
-	/**
+    protected $enabled;
+    protected $auto_capture;
+    protected $auto_cancel;
+    protected $old_billmate_auto_capture;
+    protected $old_billmate_auto_cancel;
+
+    /**
 	 * Returns the *Singleton* instance of this class.
 	 *
 	 * @return self::$instance The *Singleton* instance.

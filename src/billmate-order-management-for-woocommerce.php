@@ -45,7 +45,11 @@ if ( ! class_exists( 'Billmate_Order_Management_For_WooCommerce' ) ) {
 		 */
 		protected static $instance;
 
-		/**
+        protected $api;
+        protected $logger;
+        protected $order_management;
+
+        /**
 		 * Class constructor.
 		 */
 		public function __construct() {
