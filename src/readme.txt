@@ -41,6 +41,8 @@ We have a portal for users to provide feedback, [https://woocommerce.portal.bill
 The easiest way to report a bug is to email us at [support@billmate.se](mailto:support@billmate.se). If you however are a developer you can feel free to raise an issue on GitHub, [https://github.com/Billmate/billmate-order-mangement-for-woocommerce](https://github.com/Billmate/billmate-order-mangement-for-woocommerce).
 
 == Changelog ==
+= 2024.02.28    - version 1.3.2 =
+* Tweak         - Updated client identifier.
 
 = 2023.05.04    - version 1.3.1 =
 * Tweak         - Adds Qvickly icon.svg to WordPress.org assets.

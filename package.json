@@ -1,6 +1,6 @@
 {
 	"name": "billmate-order-management-for-woocommerce",
-	"version": "1.0.0",
+	"version": "1.3.2",
 	"description": "Billmate order management for WooCommerce",
 	"main": "gulpfile.js",
 	"repository": "https://github.com/krokedil/Payer_B2B-for-woocommerce.git",

@@ -62,7 +62,7 @@ class BOM_Request {
 		$this->secret            = $this->billmate_settings['api_key_se'];
 		$this->checkout_flow     = ( isset( $this->billmate_settings['checkout_flow'] ) ) ? $this->billmate_settings['checkout_flow'] : 'checkout';
 		$this->version           = '2.2.2';
-		$this->client            = 'WooCommerce_v2:' . BILLMATE_ORDER_MANAGEMENT_VERSION;
+		$this->client            = 'WooCommerce_OM_v2:' . BILLMATE_ORDER_MANAGEMENT_VERSION;
 	}
 
 	/**
