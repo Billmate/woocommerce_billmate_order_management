@@ -62,7 +62,7 @@ class BOM_API {
 	 * @param string $refund_data The refund data.
 	 * @return mixed
 	 */
-	public function request_credit_payment( $bco_transaction_id = '', $refund_data ) {
+	public function request_credit_payment( $bco_transaction_id, $refund_data ) {
 		$request  = new BOM_Request_Credit_Payment();
 		$response = $request->request( $bco_transaction_id, $refund_data );
 		return $response;
