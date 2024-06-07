@@ -19,6 +19,15 @@ class BOM_Request {
 	 * @var $enviroment
 	 */
 	public $enviroment;
+    public $billmate_settings;
+    public $testmode;
+    public $test;
+    public $base_url;
+    public $id;
+    public $secret;
+    public $checkout_flow;
+    public $version;
+    public $client;
 
 	/**
 	 * Class constructor.
