@@ -39,6 +39,27 @@ if ( ! class_exists( 'Billmate_Order_Management_For_WooCommerce' ) ) {
 	 */
 	class Billmate_Order_Management_For_WooCommerce {
 		/**
+		 * API instance.
+		 *
+		 * @var BOM_API
+		 */
+		public $api;
+
+		/**
+		 * Logger instance.
+		 *
+		 * @var BOM_Logger
+		 */
+		public $logger;
+
+		/**
+		 * Order management instance.
+		 *
+		 * @var BOM_Order_Management
+		 */
+		public $order_management;
+
+		/**
 		 * The reference the *Singleton* instance of this class.
 		 *
 		 * @var $instance
@@ -130,7 +151,6 @@ if ( ! class_exists( 'Billmate_Order_Management_For_WooCommerce' ) ) {
 			include_once BILLMATE_ORDER_MANAGEMENT_PATH . '/classes/requests/helpers/class-bom-refund-data-articles-helper.php';
 			include_once BILLMATE_ORDER_MANAGEMENT_PATH . '/classes/requests/helpers/class-bom-refund-data-payment-data-helper.php';
 			include_once BILLMATE_ORDER_MANAGEMENT_PATH . '/classes/requests/helpers/class-bom-refund-data-cart-helper.php';
-
 		}
 
 		/**
@@ -199,7 +219,6 @@ if ( ! class_exists( 'Billmate_Order_Management_For_WooCommerce' ) ) {
 			);
 			return array_merge( $plugin_links, $links );
 		}
-
 	}
 	Billmate_Order_Management_For_WooCommerce::get_instance();
 

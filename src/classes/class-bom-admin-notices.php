@@ -35,6 +35,41 @@ class BOM_Admin_Notices {
 	}
 
 	/**
+	 * Whether the plugin is enabled.
+	 *
+	 * @var string
+	 */
+	private $enabled;
+
+	/**
+	 * Whether auto capture is enabled.
+	 *
+	 * @var string
+	 */
+	private $auto_capture;
+
+	/**
+	 * Whether auto cancel is enabled.
+	 *
+	 * @var string
+	 */
+	private $auto_cancel;
+
+	/**
+	 * Old Billmate auto capture setting.
+	 *
+	 * @var string
+	 */
+	private $old_billmate_auto_capture;
+
+	/**
+	 * Old Billmate auto cancel setting.
+	 *
+	 * @var string
+	 */
+	private $old_billmate_auto_cancel;
+
+	/**
 	 * BOM_Admin_Notices constructor.
 	 */
 	public function __construct() {
